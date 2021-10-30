@@ -1,0 +1,44 @@
+.lg-topbox {
+    height: 200px;
+    background-color: #f9f9f9;
+}
+.lg-topbox img {
+    width: 60px;
+}
+.lg-topbox h1 {
+    line-height: 0em;
+    font-size: 1.4rem;
+}
+.lg-topbox h2{
+    font-weight: 400;
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin-top: -15px;
+}
+.ffbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.si-box {
+    width: 30%;
+    min-width: 200px;
+}
+.fail-modal-header {
+    background-color: #db2828!important;
+    color: #FFF!important;
+}
+.success-modal-header {
+    background-color: #016936!important;
+    color: #FFF!important;
+}
+.login-wrapper p {
+    width: 30%;
+    min-width: 200px;
+    font-size: 0.8rem;
+    color: #adadad;
+}
+.login-wrapper a {
+    color: #000;
+}

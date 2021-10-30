@@ -1,0 +1,68 @@
+.fbox {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.sm-logo {
+    margin-right: 20px!important;
+}
+.brand {
+    font-weight: 600!important;
+    font-size: 1.2rem!important;
+}
+.menu {
+    margin: 0!important;
+}
+.top-box {
+    width: 100%;
+    min-height: 250px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    background-image: url('../img/pattern-3.jpg');
+    background-position: center;
+    background-repeat: repeat;
+}
+.topbox-wrapper {
+    margin: 5%;
+    color: #FFF;
+}
+.editor-wrapper {
+    margin: 5%;
+}
+.pgcontent-wrapper {
+    margin: 5%;
+}
+.table-container {
+    margin: 5%;
+}
+.card-header-menu {
+    margin-top: 1rem!important;
+}
+.ssm-modal {
+    text-align: center!important;
+}
+.user-notification, .user-notification2 {
+    font-size: 1.5rem;
+}
+.user-notification .label {
+    position: absolute;
+    margin-left: 13px!important;
+    margin-top: -27px!important;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.16), 0 2px 4px rgba(0,0,0,0.23);
+}
+.user-notification2 .label {
+    position: absolute;
+    margin-left: 15px!important;
+    margin-top: -27px!important;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.16), 0 2px 4px rgba(0,0,0,0.23);
+}
+.ui.selection.active.dropdown {
+    overflow: visible;
+}
+.ui.selection.active.dropdown .menu {
+    z-index: 999;
+    overflow: visible;
+    margin: -1px!important;
+}
+.trumbowyg-box, .trumbowyg-editor {
+    z-index: 1;
+}
